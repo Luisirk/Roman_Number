@@ -3,9 +3,7 @@ export function add (expression: string) {
   if(number === 1){
     return 'I'
   }
-  if(number === 2){
-    return 'II'
-  }
+
 
 
 }
