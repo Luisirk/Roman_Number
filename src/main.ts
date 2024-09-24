@@ -1,16 +1,8 @@
-/**
- * Main Class
- */
-export class Main {
-  public static COMMANDS = 'Hello World';
-
-  public param: string;
-
-  constructor(param: string) {
-    this.param = param;
+export function add (expression: string) {
+  let number = Number(expression);
+  if(number === 1){
+    return 'I'
   }
 
-  public getParam(): string {
-    return this.param;
-  }
+
 }
