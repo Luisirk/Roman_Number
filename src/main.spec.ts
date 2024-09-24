@@ -26,5 +26,8 @@ describe("Default test", () => {
   it("returns II when expression is 2", () => {
     expect(add("2")).toBe('II')
   });
+  it("returns III when expression is 3", () => {
+    expect(add("3")).toBe('III')
+  });
 
 });
