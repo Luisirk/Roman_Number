@@ -17,9 +17,8 @@ describe("Default test", () => {
   it("returns L when expression is 50", () => {
     expect(add("100")).toBe('C')
   });
-  it("returns L when expression is 50", () => {
+  it("returns L when expression is 500", () => {
     expect(add("500")).toBe('D')
   });
-
 
 });
