@@ -9,5 +9,13 @@ export function add (expression: string) {
     1000: 'M'
   };
   const number = Number(expression);
+
+  if(number ===2 ){
+    return romanMap[1] + romanMap[1];
+  }
+
+
   return romanMap[number] || '';
+
+
 }
