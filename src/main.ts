@@ -6,6 +6,9 @@ export function add (expression: string) {
   if(number === 5){
     return 'V'
   }
+  if(number === 10){
+    return 'X'
+  }
 
 
 }
