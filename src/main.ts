@@ -12,6 +12,9 @@ export function add (expression: string) {
   if(number === 50){
     return 'L'
   }
+  if(number === 100){
+    return 'C'
+  }
 
 
 }
