@@ -8,5 +8,8 @@ describe("Default test", () => {
   it("returns V when expression is 5", () => {
     expect(add("5")).toBe('V')
   });
+  it("returns X when expression is 10", () => {
+    expect(add("10")).toBe('X')
+  });
 
 });
