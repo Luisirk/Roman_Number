@@ -23,5 +23,8 @@ describe("Default test", () => {
   it("returns M when expression is 1000", () => {
     expect(add("1000")).toBe('M')
   });
+  it("returns II when expression is 2", () => {
+    expect(add("2")).toBe('II')
+  });
 
 });
